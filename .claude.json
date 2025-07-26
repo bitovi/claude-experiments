@@ -1,0 +1,25 @@
+{
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "userID": "72d696afc464c2fbbecf82e5364c457fcb17f4b8211a2057506c285208b06a52",
+  "firstStartTime": "2025-07-26T02:00:36.669Z",
+  "projects": {
+    "/Users/justinmeyer/dev/claude-experiments": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "github-server": {
+          "type": "sse",
+          "url": "https://mcp.atlassian.com/v1/sse"
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  }
+}
