@@ -1,0 +1,38 @@
+{
+  "name": "oauth-git-service",
+  "version": "1.0.0",
+  "description": "OAuth-enabled Git MCP Service for easy repository cloning with GitHub authentication",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "demo": "node client.js demo",
+    "examples": "node client.js examples",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "github",
+    "git",
+    "mcp",
+    "anthropic",
+    "claude",
+    "repository",
+    "clone"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@anthropic-ai/sdk": "^0.30.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
